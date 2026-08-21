@@ -60,13 +60,13 @@ flowchart LR
 - сходство характеристик и опций;
 - принадлежность к категориям.
 
-https://github.com/user-attachments/assets/097109ec-67ed-49c3-aa13-0888cc24049a
+https://github.com/user-attachments/assets/bc917ea7-e319-4ae2-9061-9f1e8dbe2fb1
 
 ### Работа с организациями
 
 По ИНН или ОГРН система получает регистрационные данные из DaData, сохраняет их в PostgreSQL и запускает дополнительный LLM-enrichment. Результат включает профиль компании, релевантные виды деятельности, возможные категории товаров и бренды.
 
-https://github.com/user-attachments/assets/bd4024ae-8776-40c9-8fd7-c769ad6da9da
+https://github.com/user-attachments/assets/e75d0153-22d2-4611-b611-db8bb92a0c9a
 
 ### Сбор товарных данных
 
