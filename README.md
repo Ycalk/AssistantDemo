@@ -60,13 +60,13 @@ flowchart LR
 - сходство характеристик и опций;
 - принадлежность к категориям.
 
-https://github.com/user-attachments/assets/88bc2ff2-991b-48b2-ab22-02e94e29305d
+https://github.com/user-attachments/assets/097109ec-67ed-49c3-aa13-0888cc24049a
 
 ### Работа с организациями
 
 По ИНН или ОГРН система получает регистрационные данные из DaData, сохраняет их в PostgreSQL и запускает дополнительный LLM-enrichment. Результат включает профиль компании, релевантные виды деятельности, возможные категории товаров и бренды.
 
-https://github.com/user-attachments/assets/1e37fd50-e647-4ffb-8935-90d9d9b8c167
+https://github.com/user-attachments/assets/bd4024ae-8776-40c9-8fd7-c769ad6da9da
 
 ### Сбор товарных данных
 
@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/1e37fd50-e647-4ffb-8935-90d9d9b8c167
 
 Для бренда создаётся задача скрейпинга. Отдельный worker получает товары из очереди, управляет Chromium через CDP, сохраняет результаты и связывает их с внутренним каталогом.
 
-https://github.com/user-attachments/assets/285351e9-9410-4325-aab2-e35a45c808e3
+https://github.com/user-attachments/assets/52638a78-42fe-4f72-a4b8-333590c23022
 
 ### Синхронизация
 
